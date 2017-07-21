@@ -1,0 +1,65 @@
+/*
+WEB222 - SCC - Lab 10
+Phu Cuong Mai - 136504164
+*/
+
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+.header, .board-container {
+    text-align: center;
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    margin-top: 32px;
+}
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: normal;
+}
+.notification {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    height: 32px;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.board-container {
+    margin: auto;
+    text-align: center;
+}
+
+.board {
+    display: table;
+    table-layout: fixed;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    margin: 0;
+    padding-top: 16px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+div span {
+    font-size: 32pt;
+}
